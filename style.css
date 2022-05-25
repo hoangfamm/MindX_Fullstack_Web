@@ -1,0 +1,47 @@
+/* Create CSS FIle  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col1{
+    background-color: #FFFCF4;
+    padding: 30px;
+}
+.imageBanner{
+    width: 600px;
+    height: 600px;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px rgb(237, 237, 237);
+}
+.imageBannerBox{
+
+}
+.qouteBanner{
+    font-size: 30px;
+}
+.paraBanner{
+    padding-right: 30px;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+.buttonBanner{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+.buttonBannerDes{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 3px solid rgb(240, 240, 240);
+}
+#greyborder{
+    border: 3px solid rgb(224, 224, 224);
+}
