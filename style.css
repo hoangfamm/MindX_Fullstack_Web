@@ -26,9 +26,9 @@ body{
 }
 .qouteBanner{
     font-size: 30px;
-    background: -webkit-linear-gradient(#FF5F6D, #FFC371);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#9f8486, #563302);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .paraBanner{
     padding-right: 30px;
@@ -120,6 +120,8 @@ hr{
 }
 .row2{
     background-color: #946D06;
+    width: 1700px;
+    height: 600px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -130,8 +132,29 @@ hr{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.section4{
+    background-color:#ffffff
+}
 
-/* Carosuel */
+.imgDes1{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.imgDes2{
+    width: 200px;
+    border-radius: 15px;
+}
+.colContentBox1{
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.colContentBox2{
+    margin-left: 50px;
+    margin-top: 30px;
+}
 
 /* Berdy's Code */
 .nav-item:not(:first-child):hover {
@@ -146,9 +169,12 @@ hr{
     padding-left: 1em;
     padding-right: 1em;
 }
+.col3{
+    padding-bottom: 30px;
+}
 .toTheTop{
     padding: 5px;
-    border: 2px solid rgb(193, 193, 193);
+    border: 3px solid rgb(193, 193, 193);
     background-color: #FFB900;
     text-decoration: none;
     color: black;
@@ -158,6 +184,10 @@ hr{
     color: #151111;
     background-color: #2E2100;
     color: #FFFFFF;
+}
+.row3{
+    background-color: #ffffff;
+    border-radius: 15px;
 }
 
 
