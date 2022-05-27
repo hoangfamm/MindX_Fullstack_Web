@@ -1,4 +1,6 @@
 /* Create CSS FIle  */
+
+/* Hoang's Code */
 * {
     margin: 0;
     padding: 0;
@@ -63,6 +65,7 @@ body{
     border: 2px solid black;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 2px 1px 1px 2px rgb(179, 179, 179);
 
 }
 .backgr{
@@ -89,3 +92,20 @@ body{
     height: auto;
     margin-left: 40%;
 }
+
+/* Berdy's Code */
+.nav-item:not(:first-child):hover {
+    background-color: #DFC580;
+    border-radius: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.dropdown-toggle{
+    background-color: #DFC580;
+    border-radius: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/* Minh's Code */
