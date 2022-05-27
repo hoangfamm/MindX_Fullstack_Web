@@ -146,21 +146,32 @@ hr{
     padding-left: 1em;
     padding-right: 1em;
 }
+.toTheTop{
+    padding: 5px;
+    border: 2px solid rgb(193, 193, 193);
+    background-color: #FFB900;
+    text-decoration: none;
+    color: black;
+    border-radius:15px;
+}
+.toTheTop:hover{
+    color: #151111;
+    background-color: #2E2100;
+    color: #FFFFFF;
+}
 
 
-<<<<<<< HEAD
-
-/* Minh's Code */
-=======
 /* Minh's Code */
 .footer-container{
     width: 100%;
-    height: 500px;
-    background-color: #E5E5E5;
+    height: auto;
+    background-color: #151111;
 }
 
-.container{
+.container3{
     background-color: #2E2100;
+    width: 100%;
+    margin: auto;
 }
 
 .bnt-backtotop{
@@ -215,4 +226,3 @@ hr{
     text-decoration: none;
     color: white;
 }
->>>>>>> 63201a27186d780f26ea168f0b80c705d76b7e43
