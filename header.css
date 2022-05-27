@@ -1,0 +1,14 @@
+
+.nav-item:not(:first-child):hover {
+    background-color: #DFC580;
+    border-radius: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.dropdown-toggle{
+    background-color: #DFC580;
+    border-radius: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
