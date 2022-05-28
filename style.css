@@ -176,17 +176,64 @@ hr{
 }
 
 /* Berdy's Code */
+/* ==================Logo================= */
+
+
+.log-one {
+    z-index: 777;
+    width: 35.24px;
+    height: 34.11px;
+    position: fixed;
+    left: 1.5em;
+    top: 1.5em;
+    border-radius: 50%;
+    background: #FFF9E8;
+    border: 1px solid #946D06;
+}
+
+.log-two {
+    z-index: 888;
+    width: 35.24px;
+    height: 34.11px;
+    position: fixed;
+    left: 2.2em;;
+
+    top: 2.5em;
+
+
+    border-radius: 50%;
+    background: #DFC580;
+    border: 1px solid #FFF9E8;
+}
+
+.log-three {
+    z-index: 999;
+    width: 35.24px;
+    height: 34.11px;
+    position: fixed;
+    left: 3.1em;;
+
+    top: 1.5em;
+
+
+    border-radius: 50%;
+    background: #634700;
+
+}
+/* ======================== End logo ===================== */
+
 .nav-item:not(:first-child):hover {
     background-color: #DFC580;
     border-radius: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+
 }
-.dropdown-toggle{
+.dropdown-toggle {
     background-color: #DFC580;
     border-radius: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
 }
 .col3{
     padding-bottom: 30px;
