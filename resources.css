@@ -1,0 +1,10 @@
+.resource-h1 {
+    border-bottom: 1em solid ;
+}
+.box {
+    display: none;
+}
+.show {
+    display:block;
+
+}
