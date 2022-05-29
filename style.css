@@ -181,6 +181,16 @@ hr{
     padding-bottom: 30px;
 }
 
+/* ==FOOTER */
+.footerFormat{
+    background-color: #2E2100;
+    padding: 30px;
+}
+.formContact{
+    width: 200px;
+    margin: auto;
+}
+
 
 /* Berdy's Code */
 .nav-item:not(:first-child):hover {
@@ -205,6 +215,23 @@ hr{
     text-decoration: none;
     color: black;
     border-radius:15px;
+}
+.toTheTop2{
+    margin-top: 30px;
+    margin-left: 90%;
+    padding: 5px;
+    border: 3px solid rgb(193, 193, 193);
+    background-color: #FFB900;
+    text-decoration: none;
+    color: black;
+    border-radius:15px;
+}
+.toTheTop2:hover{
+    color: #cbe0f5;
+    background-color: #2E2100;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 2px 1px 2px rgb(7, 6, 6);
 }
 .toTheTop:hover{
     color: #151111;
