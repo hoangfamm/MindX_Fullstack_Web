@@ -97,7 +97,7 @@ function myFilter(c) {
         }
     }
 }
-myFilter('all');
+
 
 function addClass(element, nam) {
     var i, arr1, arr2;
