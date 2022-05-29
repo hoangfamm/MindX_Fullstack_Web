@@ -260,14 +260,14 @@ hr{
 /* Minh's Code */
 .footer-container{
     width: 100%;
-    height: auto;
-    background-color: #151111;
+    height: 500px;
+    background-color: #E5E5E5;
 }
 
-.container3{
+.container{
     background-color: #2E2100;
-    width: 100%;
-    margin: auto;
+    max-width: 100%;
+
 }
 
 .bnt-backtotop{
@@ -288,6 +288,7 @@ hr{
 }
 .col.mb-3{
     color: #FFFFFF;
+    width: 15%;
 }
 .col.mb-3 h5{
     color: #FFFFFF;
@@ -322,3 +323,4 @@ hr{
     text-decoration: none;
     color: white;
 }
+
