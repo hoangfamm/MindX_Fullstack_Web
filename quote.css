@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoDes{
+    width: 100px;
+    border-radius: 50%;
+}
+.backgroundNav{
+    background-color: #FFF;
+}
