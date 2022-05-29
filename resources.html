@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tram cam web :></title>
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="resources.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -24,6 +25,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:wght@500;700&display=swap"
         rel="stylesheet">
+        <script src="resource.js"></script>
+
 </head>
 
 <body>
@@ -96,17 +99,19 @@
     <!-- End header -->
 
     <!-- ============== Resources =================-->
-    <section class="resouces container-fluid">
+    <section class="resouces ">
 
-        <div class="content " style="display:flex; flex-direction: column">
+        <div class="content container d-flex flex-column align-items-lg-stretch">
             <!-- =========== Intro =========== -->
             <div class="resource-title">
-                <h1 class="resource-h1">Resources</h1>
+                <h1>Resources</h1>
+                </div>
+            <div class="resource-intro">
                 <p>
 
                     Bạn muốn tìm hiểu nhiều hơn về trầm cảm mà lại không biết bắt đầu từ đầu</br>
             ... Hay bạn đang lo lắng không biết đâu mới là nguồn tham khảo đáng tin cậy. </br>
-                Đây sẽ là điểm xuất phát cho hành trình tiến sâu hơn vào thế giới của những người trầm cảm. </br>
+                Đây ẽ là điểm xuất phát cho hành trình tiến sâu hơn vào thế giới của những người trầm cảm. </br>
                 Team chúng mình đã tổng hợp được những nguồn thông tin chất lượng về trầm cảm cũng như các vấn đề
                 tâm lý khác
                 mà bạn có thể quan tâm, đảm bào được độ sâu cũng như tính khoa học của bài viết, podcast và cả video
@@ -117,34 +122,34 @@
                 Chúc các bạn học được nhiều hơn về trầm cảm cũng như về bản thân mình, để giúp đỡ chính mình hay
                 những người thân yêu của mình khỏi căn bệnh trầm cảm này nhé!</br>
                 From <i>#Depresso</i> with love!!
-
                 </p>
             </div>
             <!-- ============== Categorize button ===========  -->
             <div id="button">
-                <button type="button" class="button" onclick="myFilter('all')">Tất cả</button>
-                <button type="button" class="button" onclick="myFilter('Baiviet')">Bài viết</button>
-                <button type="button" class="button" onclick="myFilter('Podcast')">Podcast</button>
-                <button type="button" class="button" onclick="myFilter('Video')">Video</button>
-            </div>
+                <button type="button" class="btn btn-primary my-btn rounded-pill" style="border:1px solid #634700; color:#634700" onclick="myFilter('all')">Tất cả</button>
+                <button type="button" class="btn btn-primary my-btn rounded-pill" style="border:1px solid #634700; color:#634700" onclick="myFilter('Baiviet')">Bài viết</button>
+                <button type="button" class="btn btn-primary my-btn rounded-pill" style="border:1px solid #634700; color:#634700" onclick="myFilter('Podcast')">Podcast</button>
+                <button type="button" class="btn btn-primary my-btn rounded-pill" style="border:1px solid #634700; color:#634700" onclick="myFilter('Video')">Video</button>
+
 
 
             <!-- ====================== Resources type ================ -->
+            <div class="resource-type mt-3 d-grid container row row-cols-1">
             <!--  Bai viet  -->
-            <div class="box Baiviet">
+            <div class="box col Baiviet ">
                 <a target="_blank"
                     href="https://tamlyhoctoipham.com/10-dau-hieu-pho-bien-cua-chung-tram-cam-tham-lang-perfectly-hidden-depression">
                     <h3>10 dấu hiệu phổ biến của chứng 'trầm cảm thầm lặng' (Perfectly Hidden Depression)</h3>
                 </a>
                 <p>Nguon: tamlyhoctoipham.com</p>
             </div>
-            <div class="box Baiviet">
+            <div class="box col Baiviet">
                 <a target="_blank" href="https://acrazymind.vn/minh-da-danh-mat-nhung-gi-ke-tu-khi-bi-tram-camfy8itj">
                     <h3>Mình đã đánh mất những gì kể từ khi bị trầm cảm</h3>
                 </a>
                 <p>Nguon: acrazymind.vn</p>
             </div>
-            <div class="box Baiviet">
+            <div class="box col Baiviet">
                 <a target="_blank" href="https://tamlyhoctoipham.com/lieu-thuoc-bi-mat-cho-benh-tram-cam">
                     <h3>Liều thuốc bí mật cho bệnh trầm cảm</h3>
                 </a>
@@ -153,19 +158,19 @@
 
 
             <!--  Podcast  -->
-            <div class="box Podcast">
-                <a target="_blank" href="https://acrazymind.vn/minh-da-danh-mat-nhung-gi-ke-tu-khi-bi-tram-camfy8itj">
-                    <h3>Mình đã đánh mất những gì kể từ khi bị trầm cảm</h3>
+            <div class="box col Podcast">
+                <a target="_blank" href="https://open.spotify.com/episode/3pDYWgf9Nw3FblPqFxD1yyj">
+                    <h3>#48:On Depression - Nói về trầm cảm</h3>
                 </a>
                 <p>Nguon: acrazymind.vn</p>
             </div>
-            <div class="box Podcast">
+            <div class="box col Podcast">
                 <a target="_blank" href="https://soundcloud.com/nhacgay/ipoxgay-so2">
                     <h3>Số 2 — InPsychOut Kể Chuyện Gãy: Bàn về Trầm Cảm</h3>
                 </a>
                 <p>Nguon: soundcloud.com</p>
             </div>
-            <div class="box Podcast">
+            <div class="box col Podcast">
                 <a target="_blank" href="https://open.spotify.com/episode/1h4pRIjYC2qG2nVj7bSCNK">
                     <h3>"Em đã từng bị trầm cảm..." - M2T13</h3>
                 </a>
@@ -173,24 +178,24 @@
             </div>
 
             <!--  VIDEO  -->
-            <div class="box Video">
+            <div class="box col Video">
                 <a target="_blank" href="https://www.youtube.com/watch?v=dqBRN7aV9Cc">
                     <h3>Tôi có một con chó mực, tên nó là trầm cảm.</h3>
                 </a>
                 <p>Nguon: youtube.com</p>
             </div>
-            <div class="box Video">
+            <div class="box col Video">
                 <a target="_blank" href="https://www.youtube.com/watch?v=n83Dd3oNa1A">
                     <h3>9 Dấu hiệu Trầm cảm nặng |Psych2Go Vietnam</h3>
                 </a>
                 <p>Nguon: youtube.com</p>
             </div>
-            <div class="box Video">
+            <div class="box col Video">
                 <a target="_blank" href="https://www.youtube.com/watch?v=Xu1FMCxoEFc">
                     <h3>Understanding & Conquering Depression | Huberman Lab Podcast #34</h3>
                     <p>Nguon: youtube.com</p>
             </div>
-
+        </div>
         </div>
     </section>
     <!-- ====================== End resources ==================== -->
