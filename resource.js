@@ -99,28 +99,28 @@ function myFilter(c) {
 }
 
 
-function addClass(element, nam) {
+function addClass(ele, nam) {
     var i, arr1, arr2;
-    arr1 = element.className.split(" ");
+    arr1 = ele.className.split(" ");
     arr2 = nam.split(" ");
     for (i = 0; i < nam.length; i++) {
         if (arr1.indexOf(arr2[i]) == -1) {
-            element.className += " " + arr2[i];
+            ele.className += " " + arr2[i];
         }
     }
 }
 
-function removeClass(element, nam) {
+function removeClass(ele, nam) {
     var i, arr1, arr2;
-    arr1 = element.className.split(" ");
+    arr1 = ele.className.split(" ");
     arr2 = nam.split(" ");
     for ( i = 0; i < nam.length; i++) {
         if (arr1.indexOf(arr2[i]) > -1) {
             arr1.splice(arr1.indexOf(arr2[i]), 1);
         }
     }
-    element.className = arr1.join(" ");
+    ele.className = arr1.join(" ");
 }
 
 
-// how to dynamic button????
+
