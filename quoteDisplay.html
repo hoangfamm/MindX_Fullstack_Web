@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Animation</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./quoteDisplay.css">
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="../res/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="./quoteDisplay.css" />
+</head>
+<body>
+
+ 
+ <section class="home">
+     <div class="container">
+        <div class="row">
+            <div class="home-text">
+                 <h1>How can I protect myself from Covid-19?</h1>
+                 <p class="animate-text">
+                    <span>Wear Face Mask</span>
+                    <span>Cover Face When Coughing</span>
+                    <span>Wash Your Hand Frequently</span>
+                    <span>Stay At Home</span>
+                    <span>Avoid Close Contact</span>
+                 </p>
+            </div>
+        </div>
+     </div>
+     
+     <!--  -->
+     <audio id="player" src="./Music/YouAreNotAlone_MichaelJackson_nb.mp3"></audio>
+    <div class="player">
+      <div class="control">
+        <i class="fas fa-play" id="playbtn"></i>
+      </div>
+      <div class="info">
+        TheFatRat - Electrified
+        <div class="bar">
+          <div id="progress"></div>
+        </div>
+      </div>
+
+      <div id="current">0:00</div>
+    </div>
+
+    <script src="./quoteDisplay.js"></script>
+ </section>
+
+
+
+<script>
+         const txts=document.querySelector(".animate-text").children,
+               txtsLen=txts.length;
+           let index=0;
+          const textInTimer=3000,
+                textOutTimer=2800;
+
+         function animateText() {
+            for(let i=0; i<txtsLen; i++){
+              txts[i].classList.remove("text-in","text-out");  
+            }
+            txts[index].classList.add("text-in");
+
+            setTimeout(function(){
+                txts[index].classList.add("text-out");              
+            },textOutTimer)
+
+            setTimeout(function(){
+
+              if(index == txtsLen-1){
+                  index=0;
+                }
+               else{
+                   index++;
+                 }
+                animateText();
+            },textInTimer); 
+         }
+         
+         window.onload=animateText;
+   
+</script>
+
+</body>
+</html>
+
+
+
+
