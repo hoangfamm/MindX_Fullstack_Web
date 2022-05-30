@@ -22,12 +22,9 @@
 .resouces .btn-primary.focus {
     box-shadow: 0 0 0 .2rem rgba(233, 195, 89, 0.8) !important;
 }
+
+
 /* ======== End my button ========== */
-
-.btn:not(:first-child) {
-    margin-left: 2em;
-
-}
 
 
 /* ======= Display chosen resources ========== */
@@ -39,3 +36,22 @@
     display: block;
 }
 /* ======= End display chosen resources ========== */
+
+/* ================ box ================= */
+
+.resource-type {
+    grid-auto-rows: 1fr;
+}
+
+.box{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.box:hover{
+    box-sizing: content-box;
+    border: 0.1em solid #634700;
+    border-radius: 1em;
+    box-shadow: 0.3em 0.3em 0.3em 0.1em #634700bc;
+
+}
