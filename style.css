@@ -205,7 +205,6 @@ hr{
     border-radius: 5em;
     padding-left: 0.8em;
     padding-right: 0.8em;
-
 }
 
 /* end nav btn */
@@ -215,7 +214,7 @@ hr{
     border-radius: 5em;
     padding-left: 1.2em;
     padding-right: 1.2em;
-    
+    color: #151111;
 }
 /* end blog btn */
 /* ================== END HEADER ================= */

@@ -29,7 +29,8 @@ body{
 }
 
 .colQuotemove:hover{
-    color: rgb(7, 177, 177);
+    color: rgb(20, 86, 129);
+    border-bottom: 1px solid rgb(0, 33, 73);
 }
 .colQuoteBox{
     background-color: white;
@@ -77,4 +78,31 @@ body{
     background-color: #eee;
     border-radius: 10px;
     border: 1px solid black;
+}
+.nav-itemDes{
+    background-color: #eee;
+}
+
+h2{
+    margin-top: 20px;
+    background: -webkit-linear-gradient(rgb(6, 43, 86), rgb(53, 124, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    margin-bottom: 30px;
+}
+.headingtext{
+    background: -webkit-linear-gradient(rgb(6, 43, 86), rgb(143, 143, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(25, 25, 25);
+    
 }
