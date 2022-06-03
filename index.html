@@ -88,14 +88,13 @@
         </div>
     </nav>
     <script>
-        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+                // Scroll down 
         window.onscroll = function () { myToggle() };
 
         function myToggle() {
             if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
                 document.getElementById("chgOnScr").className = "btn tr";
-                document.getElementById("navbar").className = "navbar bg-light sticky-top border-bottom";
-                document.getElementById("navbar").className.style = "box-shadow: 0px 2px 4px 8px #";
+                document.getElementById("navbar").className = "navbar bg-light sticky-top";
                 document.getElementById("logo").className = "logo align-self-center";
 
                 document.getElementById("icon").className.style = "font-size: 2em;";
