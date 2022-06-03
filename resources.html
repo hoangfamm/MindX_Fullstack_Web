@@ -9,10 +9,11 @@
     <title>Tram cam web :></title>
     <link rel="stylesheet" href="header.css">
     <!-- CSS only -->
+    <link rel="stylesheet" href="resources.css">
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="resources.css">
-        <script src="resource.js"></script>
+    <script src="resource.js"></script>
     <!-- phong chu -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,87 +36,88 @@
 </head>
 
 <body>
-<header id="header">
-    <nav id="navbar" class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
+    <header id="header">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
 
-            <button id="chgOnScr" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                <span id="icon" class="navbar-toggler-icon" style="font-size:x-small"></span> <span
-                    style="font-size:smaller; color: black;">Menu</span>
-            </button>
-            <div class="d-flex">
-                <a href="#" class="logo align-self-center" id="logo">
-                    <img src="./Logo.png" style="height: 40px; width: 50px" alt="">
-                </a>
+                <button id="chgOnScr" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span id="icon" class="navbar-toggler-icon" style="font-size:x-small"></span> <span id="menu-button"
+                        style="font-size:smaller;;">Menu</span>
+                </button>
+                <div class="d-flex">
+                    <a href="#" class="logo align-self-center" id="logo">
+                        <img src="./Logo.png" style="height: 40px; width: 50px" alt="">
+                    </a>
 
-                <a id="brand" class="navbar-brand" href="#"
-                    style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Depresso</a>
-            </div>
-
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <p class="mx-auto fs-2" style="font-family: 'Lobster Two'">Depresso</p>
-                </div>
-                <div class="offcanvas-body ">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Trầm cảm</a></li>
-                                <li><a class="dropdown-item" href="#">Kỹ năng sống</a></li>
-                                <li><a class="dropdown-item" href="#">Sợ hãi và giải thoát</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Quote</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Cộng Đồng </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="resources.html">Resources</a>
-                        </li>
-
-                    </ul>
-
+                    <a id="brand" class="navbar-brand" href="#"
+                        style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Depresso</a>
                 </div>
 
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <p class="mx-auto fs-2" style="font-family: 'Lobster Two'">Depresso</p>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Trầm cảm</a></li>
+                                    <li><a class="dropdown-item" href="#">Kỹ năng sống</a></li>
+                                    <li><a class="dropdown-item" href="#">Sợ hãi và giải thoát</a></li>
 
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Quote</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Cộng Đồng </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="resources.html">Resources</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                </div>
+                <button class="btn btn-outline-success d-flex justify-content-center btn-sm" type="submit">Đăng
+                    nhập</button>
             </div>
-            <button class="btn btn-outline-success d-flex justify-content-center btn-sm" type="submit">Đăng
-                nhập</button>
-        </div>
-    </nav>
-    <script>
-        // scroll down change navbar
-        window.onscroll = function () { myToggle() };
+        </nav>
+        <script>
+            // scroll down change navbar
+            window.onscroll = function () { myToggle() };
 
-        function myToggle() {
-            if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-                document.getElementById("chgOnScr").className = "btn tr";
-                document.getElementById("navbar").className = "navbar bg-light sticky-top border-bottom";
-                document.getElementById("navbar").className.style = "box-shadow: 0px 2px 4px 8px #";
-                document.getElementById("logo").className = "logo align-self-center";
-
-                document.getElementById("icon").className.style = "font-size: 2em;";
+            function myToggle() {
+                if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                    document.getElementById("chgOnScr").className = "btn tr";
+                    document.getElementById("navbar").className = "navbar bg-light fixed-top";
 
 
-            } else {
-                document.getElementById("chgOnScr").className = "navbar-toggler";
-                document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light sticky-top";
-                document.getElementById("brand").className = "navbar-brand";
-                document.getElementById("icon").className = "navbar-toggler-icon";
-                document.getElementById("icon").className.style = "font-size: 4em;";
+                    document.getElementById("logo").className = "logo align-self-center";
 
+                    document.getElementById("icon").className.style = "font-size: 2em;";
+
+
+                } else {
+                    document.getElementById("chgOnScr").className = "navbar-toggler";
+                    document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light";
+                    document.getElementById("brand").className = "navbar-brand";
+                    document.getElementById("icon").className = "navbar-toggler-icon";
+                    document.getElementById("icon").className.style = "font-size: 4em;";
+
+                }
             }
-        }
-    </script>
+        </script>
 
     </header>
     <!-- End header -->
@@ -127,111 +129,176 @@
             <!-- =========== Intro =========== -->
             <div class="resource-title text-center">
                 <h1>Resources</h1>
+                <p><i>Đi sâu hơn vào thế giới của người trầm cảm</i></p>
             </div>
-            <div class="resource-intro">
-                <p>
-
-                    Bạn muốn tìm hiểu nhiều hơn về trầm cảm mà lại không biết bắt đầu từ đầu</br>
-                    ... Hay bạn đang lo lắng không biết đâu mới là nguồn tham khảo đáng tin cậy. </br>
-                    Đây ẽ là điểm xuất phát cho hành trình tiến sâu hơn vào thế giới của những người trầm cảm. </br>
-                    Team chúng mình đã tổng hợp được những nguồn thông tin chất lượng về trầm cảm cũng như các vấn đề
-                    tâm lý khác
-                    mà bạn có thể quan tâm, đảm bào được độ sâu cũng như tính khoa học của bài viết, podcast và cả video
-                    nữa.
-                    Bạn có thể tìm hiểu về trầm cảm bằng tất cả giác quan qua các kênh chúng mình giới thiệu. Vậy còn
-                    chờ gì mà
-                    không nhấp ngay vào 1 podcast để nghe thử nhỉ!?</br>
-                    Chúc các bạn học được nhiều hơn về trầm cảm cũng như về bản thân mình, để giúp đỡ chính mình hay
-                    những người thân yêu của mình khỏi căn bệnh trầm cảm này nhé!</br>
-                    From <i>#Depresso</i> with love!!
-                </p>
-            </div>
-            <!-- ============== Categorize button ===========  -->
-            <div id="button" class=" d-grid">
-                <div class="container row row-cols-lg-4 row-cols-md-4 row-cols-lg-4 row-cols-1">
-                    <button type="button" class="btn btn-primary my-btn rounded-pill"
-                        style="border:1px solid #634700; color:#634700" onclick="myFilter('all')">Tất cả</button>
-                    <button type="button" class="btn btn-primary my-btn rounded-pill"
-                        style="border:1px solid #634700; color:#634700" onclick="myFilter('Baiviet')">Bài viết</button>
-                    <button type="button" class="btn btn-primary my-btn rounded-pill"
-                        style="border:1px solid #634700; color:#634700" onclick="myFilter('Podcast')">Podcast</button>
-                    <button type="button" class="btn btn-primary my-btn rounded-pill"
-                        style="border:1px solid #634700; color:#634700" onclick="myFilter('Video')">Video</button>
+            <!-- ============== Carousel ============ -->
+            <div id="carouselForRsesource" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselForRsesource" data-bs-slide-to="8"
+                        aria-label="Slide 9"></button>
                 </div>
-
-
-                <!-- ====================== Resources type ================ -->
-                <div class="resource-type mt-3 d-grid container row row-cols-1">
-                    <!--  Bai viet  -->
-                    <div class="box col Baiviet text-decoration-none">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://tamlyhoctoipham.com/10-dau-hieu-pho-bien-cua-chung-tram-cam-tham-lang-perfectly-hidden-depression">
-                            <span><h3>10 dấu hiệu phổ biến của chứng 'trầm cảm thầm lặng' (Perfectly Hidden Depression)</h3></span>
-                        </a>
-                        <p>Nguon: tamlyhoctoipham.com</p>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="https://images.everydayhealth.com/images/coping-with-depression-a-guide-to-good-treatment-1440x810.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://tamlyhoctoipham.com/10-dau-hieu-pho-bien-cua-chung-tram-cam-tham-lang-perfectly-hidden-depression">
+                                <span>
+                                    <h5>10 dấu hiệu phổ biến của chứng 'trầm cảm thầm lặng' (Perfectly Hidden
+                                        Depression)
+                                    </h5>
+                                </span>
+                            </a>
+                            <p>Nguon: tamlyhoctoipham.com</p>
+                        </div>
                     </div>
-                    <div class="box col Baiviet">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://acrazymind.vn/minh-da-danh-mat-nhung-gi-ke-tu-khi-bi-tram-camfy8itj">
-                            <span><h3>Mình đã đánh mất những gì kể từ khi bị trầm cảm</h3></span>
-                        </a>
-                        <p>Nguon: acrazymind.vn</p>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://nhatamlyhoc.com/wp-content/uploads/2020/01/Depression_GettyImages-947804676.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://acrazymind.vn/minh-da-danh-mat-nhung-gi-ke-tu-khi-bi-tram-camfy8itj">
+                                <span>
+                                    <h5>Mình đã đánh mất những gì kể từ khi bị trầm cảm</h5>
+                                </span>
+                            </a>
+                            <p>Nguon: acrazymind.vn</p>
+                        </div>
                     </div>
-                    <div class="box col Baiviet text-decoration-none">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://tamlyhoctoipham.com/lieu-thuoc-bi-mat-cho-benh-tram-cam">
-                            <span><h3>Liều thuốc bí mật cho bệnh trầm cảm</h3></span>
-                        </a>
-                        <p>Nguon: tamlyhoctoipham.com</p>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://images.everydayhealth.com/images/coping-with-depression-a-guide-to-good-treatment-1440x810.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://tamlyhoctoipham.com/lieu-thuoc-bi-mat-cho-benh-tram-cam">
+                                <span>
+                                    <h5>Liều thuốc bí mật cho bệnh trầm cảm</h5>
+                                </span>
+                            </a>
+                            <p>Nguon: tamlyhoctoipham.com</p>
+                        </div>
                     </div>
-
-
-                    <!--  Podcast  -->
-                    <div class="box col Podcast">
-                        <a target="_blank" style="text-decoration: none;color: black"
-                            href="https://open.spotify.com/episode/3pDYWgf9Nw3FblPqFxD1yyj">
-                            <span><h3>#48:On Depression - Nói về trầm cảm</h3></span>
-                        </a>
-                        <p>Nguon: acrazymind.vn</p>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://nhatamlyhoc.com/wp-content/uploads/2020/01/Depression_GettyImages-947804676.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://open.spotify.com/episode/3pDYWgf9Nw3FblPqFxD1yyj">
+                                <span>
+                                    <h5>#48:On Depression - Nói về trầm cảm</h5>
+                                </span>
+                            </a>
+                            <p>Nguon: acrazymind.vn</p>
+                        </div>
                     </div>
-                    <div class="box col Podcast">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://soundcloud.com/nhacgay/ipoxgay-so2">
-                            <span><h3>Số 2 — InPsychOut Kể Chuyện Gãy: Bàn về Trầm Cảm</h3></span>
-                        </a>
-                        <p>Nguon: soundcloud.com</p>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://images.everydayhealth.com/images/coping-with-depression-a-guide-to-good-treatment-1440x810.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://soundcloud.com/nhacgay/ipoxgay-so2">
+                                <span>
+                                    <h5>Số 2 — InPsychOut Kể Chuyện Gãy: Bàn về Trầm Cảm</h5>
+                                </span>
+                            </a>
+                            <p>Nguon: soundcloud.com</p>
+                        </div>
                     </div>
-                    <div class="box col Podcast">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://open.spotify.com/episode/1h4pRIjYC2qG2nVj7bSCNK">
-                            <span><h3>"Em đã từng bị trầm cảm..." - M2T13</h3></span>
-                        </a>
-                        <p>Nguon: open.spotify.com</p>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://nhatamlyhoc.com/wp-content/uploads/2020/01/Depression_GettyImages-947804676.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://open.spotify.com/episode/1h4pRIjYC2qG2nVj7bSCNK">
+                                <span>
+                                    <h5>"Em đã từng bị trầm cảm..." - M2T13</h5>
+                                </span>
+                            </a>
+                            <p>Nguon: open.spotify.com</p>
+                        </div>
                     </div>
-
-                    <!--  VIDEO  -->
-                    <div class="box col Video">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://www.youtube.com/watch?v=dqBRN7aV9Cc">
-                            <span><h3>Tôi có một con chó mực, tên nó là trầm cảm.</h3></span>
-                        </a>
-                        <p>Nguon: youtube.com</p>
-                    </div>
-                    <div class="box col Video">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://www.youtube.com/watch?v=n83Dd3oNa1A">
-                            <span><h3>9 Dấu hiệu Trầm cảm nặng |Psych2Go Vietnam</h3></span>
-                        </a>
-                        <p>Nguon: youtube.com</p>
-                    </div>
-                    <div class="box col Video">
-                        <a target="_blank" style="text-decoration: none; color: black"
-                            href="https://www.youtube.com/watch?v=Xu1FMCxoEFc">
-                            <span><h3>Understanding & Conquering Depression | Huberman Lab Podcast #34</h3></span>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://images.everydayhealth.com/images/coping-with-depression-a-guide-to-good-treatment-1440x810.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://www.youtube.com/watch?v=dqBRN7aV9Cc">
+                                <span>
+                                    <h5>Tôi có một con chó mực, tên nó là trầm cảm.</h5>
+                                </span>
+                            </a>
                             <p>Nguon: youtube.com</p>
+                        </div>
                     </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://nhatamlyhoc.com/wp-content/uploads/2020/01/Depression_GettyImages-947804676.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://www.youtube.com/watch?v=n83Dd3oNa1A">
+                                <span>
+                                    <h5>9 Dấu hiệu Trầm cảm nặng |Psych2Go Vietnam</h5>
+                                </span>
+                            </a>
+                            <p>Nguon: youtube.com</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://images.everydayhealth.com/images/coping-with-depression-a-guide-to-good-treatment-1440x810.jpg"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a target="_blank" style="text-decoration: none; color: white"
+                                href="https://www.youtube.com/watch?v=Xu1FMCxoEFc">
+                                <span>
+                                    <h5>Understanding & Conquering Depression | Huberman Lab Podcast #34</h5>
+                                </span>
+                                <p>Nguon: youtube.com</p>
+                        </div>
+                    </div>
+
+
                 </div>
+                <button class="carousel-control-prev dark " type="button" data-bs-target="#carouselForRsesource"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next dark" type="button" data-bs-target="#carouselForRsesource"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
+
+
+        </div>
     </section>
     <!-- ====================== End resources ==================== -->
 
@@ -245,6 +312,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>`
