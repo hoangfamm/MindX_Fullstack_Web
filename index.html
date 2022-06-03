@@ -94,7 +94,7 @@
         function myToggle() {
             if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
                 document.getElementById("chgOnScr").className = "btn tr";
-                document.getElementById("navbar").className = "navbar bg-light sticky-top";
+                document.getElementById("navbar").className = "navbar bg-light fixed-top";
                 document.getElementById("logo").className = "logo align-self-center";
 
                 document.getElementById("icon").className.style = "font-size: 2em;";
@@ -102,7 +102,7 @@
 
             } else {
                 document.getElementById("chgOnScr").className = "navbar-toggler";
-                document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light sticky-top";
+                document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light";
                 document.getElementById("brand").className = "navbar-brand";
                 document.getElementById("icon").className = "navbar-toggler-icon";
                 document.getElementById("icon").className.style = "font-size: 4em;";
