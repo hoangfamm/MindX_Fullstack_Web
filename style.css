@@ -206,7 +206,10 @@ hr{
     padding-left: 0.8em;
     padding-right: 0.8em;
 }
-
+a{
+    text-decoration: none;
+    color:black;
+}
 /* end nav btn */
 /* Blog button */
 .dropdown-toggle {
@@ -323,3 +326,17 @@ hr{
     text-decoration: none;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .imgDes1{
+        width: 100%;
+    }
+    .imageBannerBox{
+        width: 100%;
+    }
+    .imgDes2{
+        width: 100%;
+    }
+    .row2{
+        width: 100%;
+    }
+  }
