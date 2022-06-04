@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bầu trời hôm nay của bạn thế nào?</title>
+    <link rel="stylesheet" href="article03.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header id="header">
+        <!-- Header  -->
+      <nav id="navbar" class="navbar navbar-expand-lg" >
+        <div class="container-fluid">
+
+            <button id="chgOnScr" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span id="icon" class="navbar-toggler-icon" style="font-size:x-small"></span> <span style="font-size:smaller; color: black;">Menu</span>
+            </button>
+            <div class="d-flex">
+            <a href="#" class="logo align-self-center"  id="logo">
+                <img src="./Logo.png" style="height: 40px; width: 50px" alt="">
+            </a>
+
+            <a id="brand" class="navbar-brand" href="#"  style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Light house</a>
+        </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <p class="mx-auto fs-2" style="font-family: 'Lobster Two'">Light house</p>
+                </div>
+                <div class="offcanvas-body ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="blog.html">Trầm cảm</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Kỹ năng sống</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Sợ hãi và giải thoát</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="quote.html">Ngẫm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="community.html">Cộng Đồng </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="resources.html">Suối Nguồn</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                
+              
+            </div>
+        </div>
+    </nav>
+    <script>
+                // Scroll down 
+        window.onscroll = function () { myToggle() };
+
+        function myToggle() {
+            if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                document.getElementById("chgOnScr").className = "btn tr";
+                document.getElementById("navbar").className = "navbar bg-light fixed-top";
+                document.getElementById("logo").className = "logo align-self-center";
+
+                document.getElementById("icon").className.style = "font-size: 2em;";
+
+
+            } else {
+                document.getElementById("chgOnScr").className = "navbar-toggler";
+                document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light";
+                document.getElementById("brand").className = "navbar-brand";
+                document.getElementById("icon").className = "navbar-toggler-icon";
+                document.getElementById("icon").className.style = "font-size: 4em;";
+
+            }
+        }
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script> 
+
+        <!-- End header -->
+    </header>
+  <!--Header-->
+    <div class="container">
+        <div class="p-4 p-md-5 mb-4">
+          <div class="col-md-6 px-0"></div>
+        </div>
+    
+        <div class="row g-5">
+            <div class="col-md-8">
+              <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                Điều tốt đẹp rồi sẽ đến sau cùng.....
+              </h3>
+        
+              <article class="blog-post">
+                <h2 class="blog-post-title mb-1">Bầu trời hôm nay của bạn thế nào?</h2>
+                <p class="blog-post-meta">May 24, 2022 by <a href="#">Dear Introvert</a></p>
+                <div class="row">
+                    <div id="readingspeed"></div>
+                    <div id="numberoftext"></div>
+                  </div>
+                <p><span>Không biết từ khi nào, cái định nghĩa "nỗi buồn" đi đôi với những cơn giông lại không còn hoàn toàn ám thị lên Nó nữa.</span></p>
+                <p><span>Nhớ hồi còn nhỏ như "nắm rơm" trước nhà, mỗi khi trời chỉ cần thì thầm xuống tai Nó bằng thứ âm thanh ri rỉ ấy là Nó lại run hết cả người lên, 
+                    loanh quanh vội tìm chỗ trú ẩn cho bằng được. Nói thật ra thì, Nó đã từng rất sợ những khi ông trời nổi giận. Khi ấy, nó chỉ biết có một cách duy nhất "chạy trốn"
+                    theo cả nghĩa đen lẫn nghĩa bóng.</span></p>
+                <p><span>Rồi thì hôm nay, Nó bất ngờ nhận ra rằng nó không còn quá sợ hãi khi ông trời nổi giận nữa. Thật lạ, hôm nay, khi những đám mây thi nhau thay áo, cái áo đen 
+                    nhẻm và xấu xí vẫn luôn ám ảnh trong đầu Nó suốt những năm qua. Nó gan tới mức ra đứng trước hiên nhà hồi lâu trước khi ông trời trực Khóc dữ dội chỉ để ngắm cái cảnh 
+                    tưởng đó, ngắm bông hoa mẫu đơn mà bố nó vun xén mãi mới đợt mới ra hoa. Nó sợ ông trời giận quá làm đau cây hoa bố nó cất công vun xén. Nó sợ nó sẽ không bao giờ được 
+                    nhìn thấy những người thân yêu bên cạnh mình nữa.</span></p>
+                <p><span>Nó không còn nhớ nỗi đã có bao nhiêu lần nỗi buồn sau khi chia tay của Nó càng ám mùi vọng tưởng và ai oán khi ông trời bật khóc. Nó thương chính Nó 
+                    những ngày tháng đó gần như khóc gần bằng nước mắt ông trời chảy xuống. Nó từng vùi đầu trong chăn, nghĩ về cuộc đời phía trước với không biết bao nhiêu lần nó 
+                    muốn chấm dứt cuộc đời đắng ngắt và buồn tẻ.</span></p>
+                <p><span>Để rồi tới ngày hôm nay, Nó mới đờ người tự cười thầm <strong>"Ôi mình yêu cuộc sống này quá" </strong>Không phải vì cuộc sống này quá tươi đẹp, mà vì cuộc sống này quá thật. 
+                    Vì nó là chính nó. Nó đã chạm tới một nấc thang trong ước mơ trở thành nhà văn của mình. Cái điều mà chỉ mấy tháng trước thôi, nó còn không hề hay biết.</span></p>
+                <p><span>Cuộc sống này là vậy, không hề dễ dàng với chúng ta. Nhưng đừng vì thế mà buông tay. Những người chúng ta thương vẫn còn nắm chặt tay chúng ta lắm. 
+                    Chỉ cần vẫn còn tình thương, màu xám rồi cũng trở nên nhiệm màu.</span></p>
+                    <p><span>Điều tốt đẹp rồi sẽ đến sau cùng.....</span></p>
+                    <p><span><strong>Tác giả: </strong>Dear Introvert</span></p>
+                <p><span><strong>Nguồn ảnh: </strong>Google image</span></p>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="countword.js"></script>
+</body>
+</html>

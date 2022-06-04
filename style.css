@@ -118,6 +118,12 @@ hr{
     border-radius: 15px;
     box-shadow: 1px 3px 1px 3px rgb(79, 77, 77);
 }
+.col2:hover{
+    box-shadow:1px 1px 1px 1px  #563302;
+    padding: 20px;
+    color: white;
+    background-color: #946D06;
+}
 .row2{
     background-color: #946D06;
     width: 1500px;
@@ -199,7 +205,6 @@ hr{
     border-radius: 5em;
     padding-left: 0.8em;
     padding-right: 0.8em;
-
 }
 
 /* end nav btn */
@@ -209,7 +214,7 @@ hr{
     border-radius: 5em;
     padding-left: 1.2em;
     padding-right: 1.2em;
-    
+    color: #151111;
 }
 /* end blog btn */
 /* ================== END HEADER ================= */

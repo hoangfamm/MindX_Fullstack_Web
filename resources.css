@@ -1,72 +1,29 @@
-/* .btn:hover {
-    background-color: #634700 !important;
-    color: white !important;
-} */
 
-/* ======== My button ========== */
-.resouces .btn-primary {
-    background-color: transparent !important;
+
+.resource-title {
+    padding-top: 1.5rem;
 }
 
-.resouces .btn-primary:hover {
-    color: white !important;
-    background-color: #634700 !important;
-}
-.resouces .btn-primary:focus {
-    color: white !important;
-    background-color: #634700 !important;
-
+/* ================= Carousel ================= */
+.carousel {
+    margin: 1.5rem auto;
 }
 
-.resouces .btn-primary:focus,
-.resouces .btn-primary.focus {
-    box-shadow: 0 0 0 .2rem rgba(233, 195, 89, 0.8) !important;
+.carousel .carousel-inner .carousel-item img {
+    border-radius: 1rem;
 }
-
-
-/* ======== End my button ========== */
-
-
-/* ======= Display chosen resources ========== */
-.box {
-    display: none;
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.121);
+    backdrop-filter: blur(20px);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-
-.box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+.carousel .carousel-inner {
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 
 
-.h3 {
-    display: inline-block;
-    vertical-align: middle;
-    line-height:normal;
-}
 
-.show {
-    display: block;
-}
-/* ======= End display chosen resources ========== */
-
-/* ================ box ================= */
-
-.resource-type {
-    grid-auto-rows: 1fr;
-}
-
-.box{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.box:hover{
-    box-sizing: border-box;
-    border: 0.1em solid #634700;
-    border-radius: 1em;
-    box-shadow: 0.3em 0.3em 0.3em 0.1em #634700bc;
-}
-
+/* ============ End carousel ============= */
