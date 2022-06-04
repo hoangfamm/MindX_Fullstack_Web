@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+.post{
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    height: auto;
+    margin-top: 200px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.headingPost{
+    width: 200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.enterBox{
+    margin-left: 10px;
+    padding: 5px;
+}
+.buttonBox{
+    margin-top: 10px;
+    width: 30px;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.buttonBox2{
+    width:100px;
+    height: 30px;
+    margin-left: 700px;
+    margin-top:200px;
+}

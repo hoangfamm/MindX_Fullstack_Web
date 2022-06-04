@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .communityBanner{
     width: 1000px;
     margin-left:260px;
@@ -20,4 +21,26 @@ h2{
     -webkit-text-fill-color: transparent;
     font-size: 50px;
     margin-left: 45%;
+}
+.postBox{
+    width: 500px;
+    height: auto;
+    background-color: #eee;
+    margin-left: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-bottom: 10px;
+}
+.usernameBox{
+    padding: 5px;
+}
+.questionBox{
+
+}
+.cmtBox{
+    border-top: 1px solid grey;
+}
+.buttonBox{
+    margin-left: 50%;
 }
