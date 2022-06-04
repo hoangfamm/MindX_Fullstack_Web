@@ -20,11 +20,11 @@
             <span id="icon" class="navbar-toggler-icon" style="font-size:x-small"></span> <span style="font-size:smaller; color: black;">Menu</span>
         </button>
         <div class="d-flex">
-        <a href="#" class="logo align-self-center"  id="logo">
+        <a href="./index.html" class="logo align-self-center"  id="logo">
             <img src="./Logo.png" style="height: 40px; width: 50px" alt="">
         </a>
 
-        <a id="brand" class="navbar-brand" href="#"  style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Light house</a>
+        <a id="brand" class="navbar-brand" href="./index.html"  style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Light house</a>
     </div>
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
@@ -55,12 +55,8 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="resources.html">Suối Nguồn</a>
                     </li>
-
                 </ul>
-
             </div>
-            
-          
         </div>
     </div>
 </nav>
@@ -99,43 +95,6 @@
 
     <!-- End header -->
 </header>
-<script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function () { myToggle() };
-
-    function myToggle() {
-        if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-            document.getElementById("chgOnScr").className = "btn tr";
-            document.getElementById("navbar").className = "navbar bg-light sticky-top border-bottom";
-            document.getElementById("navbar").className.style = "box-shadow: 0px 2px 4px 8px #";
-            document.getElementById("logo").className = "logo align-self-center";
-
-            document.getElementById("icon").className.style = "font-size: 2em;";
-
-
-        } else {
-            document.getElementById("chgOnScr").className = "navbar-toggler";
-            document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light sticky-top";
-            document.getElementById("brand").className = "navbar-brand";
-            document.getElementById("icon").className = "navbar-toggler-icon";
-            document.getElementById("icon").className.style = "font-size: 4em;";
-
-        }
-    }
-</script>
-
-<!--         <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script> -->
-
-    <!-- End header -->
-</header>
-
   <!-- Blog-->
   <div class="p-4 p-md-6 mb-4">
     <div class="col-md-8 px-0">
@@ -156,7 +115,7 @@
                 <div class="number-in-box"><i class="fa-duotone fa-1"></i></div>
               </div>
               <div class="information-trending">
-                <div class="title-trending"><h6>Trầm cảm sau khi sinh - Những điều cơ bản cần biết</h6></div>
+                <div class="title-trending"><a class="articleLink" href="./article01.html"><h6>Trầm cảm sau khi sinh - Những điều cơ bản cần biết</h6></a></div>
                 <div class="author-and-date-trending">Tác giả: Rubi - Nov 04, 2021</div>
               </div>         
           </div>
@@ -167,7 +126,7 @@
               <div class="number-in-box"><i class="fa-duotone fa-2"></i></div>
             </div>
             <div class="information-trending">
-              <div class="title-trending"><h6>Yêu thương bản thân thực sự nghĩa là gì?</h6></div>
+              <div class="title-trending"><a class="articleLink" href="./article02.html"><h6>Yêu thương bản thân thực sự nghĩa là gì?</h6></a></div>
               <div class="author-and-date-trending">Tác giả: Rubi - Nov 02, 2021</div>
             </div>         
         </div>
@@ -178,7 +137,7 @@
             <div class="number-in-box"><i class="fa-duotone fa-3"></i></div>
           </div>
           <div class="information-trending">
-            <div class="title-trending"><h6>Bầu trời hôm nay của bạn thế nào?</h6></div>
+            <div class="title-trending"><a class="articleLink" href="./article03.html"><h6>Bầu trời hôm nay của bạn thế nào?</h6></a></div>
             <div class="author-and-date-trending">Tác giả: Dear Introvert - May 24, 2022</div>
           </div>         
       </div>
@@ -189,7 +148,7 @@
             <div class="number-in-box"><i class="fa-duotone fa-4"></i></div>
           </div>
           <div class="information-trending">
-            <div class="title-trending"><h6>Mình đã đánh mất những gì kể từ khi bị trầm cảm?</h6></div>
+            <div class="title-trending"><a class="articleLink" href="./article04.html"><h6>Mình đã đánh mất những gì kể từ khi bị trầm cảm?</h6></a></div>
             <div class="author-and-date-trending">ác giả: Mê Cốc - Jul 2, 2022</div>
           </div>         
       </div>
