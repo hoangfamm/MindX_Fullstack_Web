@@ -201,10 +201,11 @@ hr{
 /* ================== HEADER ================= */
 /* nav btn */
 .nav-item:not(:first-child):hover {
+    transition: all 0.2s ease-in-out;
     background-color: #DFC580;
     border-radius: 5em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 a{
     text-decoration: none;
