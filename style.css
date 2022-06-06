@@ -184,6 +184,7 @@ hr{
    
 
 }
+.colContentBox1
 .textCenter{
     text-align: center;
     padding-bottom: 20px;
@@ -213,6 +214,18 @@ hr{
 .colContentBox2{
     margin-left: 50px;
     margin-top: 30px;
+}
+@media (max-width: 780px) {
+    .colContentBox1{
+        margin-right: 3em;
+    }
+    .colContentBox2{
+        margin-left: 2em;
+    }
+    .toTheTop {
+        display: inline-block;
+        min-width: 113px;
+    }
 }
 .formLDP{
     margin-top: 50px;
@@ -285,6 +298,7 @@ a{
     text-decoration: none;
     color: black;
     border-radius:15px;
+
 }
 .toTheTop2{
     margin-top: 30px;
@@ -312,6 +326,8 @@ a{
     background-color: #ffffff;
     border-radius: 15px;
 }
+
+
 
 
 /* Minh's Code */
