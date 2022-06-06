@@ -327,17 +327,25 @@ a{
     text-decoration: none;
     color: white;
 }
-@media only screen and (max-width: 600px) {
-    .imgDes1{
-        width: 100%;
+@media screen and (max-width: 1401px) {
+    .boxPic {
+     width: 350px;
+     margin: auto;
+
     }
-    .imageBannerBox{
-        width: 100%;
+  }
+  @media screen and (max-width: 1201px) {
+    .boxPic {
+     width: 120%;
+     margin: 10px;
     }
-    .imgDes2{
-        width: 100%;
+
+  }
+  @media screen and (max-width: 769px) {
+    .boxPic {
+     width: 100%;
+     margin: 30px;
+
     }
-    .row2{
-        width: 100%;
-    }
+
   }
