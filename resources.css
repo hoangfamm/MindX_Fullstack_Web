@@ -1,4 +1,28 @@
 
+/* ================== HEADER ================= */
+/* nav btn */
+.nav-item:not(:first-child):hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #DFC580;
+    border-radius: 5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/* end nav btn */
+/* Blog button */
+.dropdown-toggle {
+    background-color: #DFC580;
+    border-radius: 5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    color: #151111;
+}
+/* end blog btn */
+/* ================== END HEADER ================= */
 
 .resource-title {
     padding-top: 1.5rem;
