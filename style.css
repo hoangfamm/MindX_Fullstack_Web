@@ -345,12 +345,12 @@ a{
 
 .bnt-backtotop{
     border: solid 1px black;
-    width: 210px;
+    width: 150px;
     height: 52px;
     border-radius: 30px;
     position: relative;
-    left: 46%;
-    top: 5%;
+    top: 150px;
+    left: 100px;
     background-color: #FFB900;
     text-align: center;
     cursor: pointer;
@@ -358,6 +358,10 @@ a{
 
 .bnt-backtotop h5{
     line-height: 45px;
+}
+
+.bnt-backtotop a {
+    color: black;
 }
 .col.mb-3{
     color: #FFFFFF;
