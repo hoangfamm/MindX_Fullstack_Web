@@ -99,6 +99,8 @@ a{
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
+    position: relative;
+    bottom: 25px;
 
 }
 
@@ -155,8 +157,9 @@ a{
 
 .stretched-link{
   position: relative;
-  top: -50px;
-}
+  top: -30px;
+  font-size: 20px;
+} 
 
 .tag-box{
   width: 100%;
