@@ -10,98 +10,93 @@
     <link rel="stylesheet" href="footerstyling.css">
 </head>
 <body>
-  <!--Header-->
-  <header id="header">
-    <!-- Header  -->
-  <nav id="navbar" class="navbar navbar-expand-lg sticky-top" >
-    <div class="container-fluid">
+ <header id="header">
+        <!-- Header  -->
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
 
-        <button id="chgOnScr" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            <span id="icon" class="navbar-toggler-icon" style="font-size:x-small"></span> <span style="font-size:smaller; color: black;">Menu</span>
-        </button>
-        <div class="d-flex">
-        <a href="#" class="logo align-self-center"  id="logo">
-            <img src="./Logo.png" style="height: 40px; width: 50px" alt="">
-        </a>
+                <button id="chgOnScr" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span id="icon" class="navbar-toggler-icon" style="font-size:x-small"></span> <span
+                        style="font-size:smaller; color: black;">Menu</span>
+                </button>
+                <div class="d-flex">
+                    <a href="./index.html" class="logo align-self-center" id="logo">
+                        <img src="./Logo.png" style="height: 40px; width: 50px" alt="">
+                    </a>
 
-        <a id="brand" class="navbar-brand" href="#"  style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Depresso</a>
-    </div>
+                    <a id="brand" class="navbar-brand" href="./index.html"
+                        style="font-size: 2em;font-family: 'Lobster Two', cursive; color: #634700;">Light house</a>
+                </div>
 
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-                <p class="mx-auto fs-2" style="font-family: 'Lobster Two'">Depresso</p>
-            </div>
-            <div class="offcanvas-body ">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Blog
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Trầm cảm</a></li>
-                            <li><a class="dropdown-item" href="#">Kỹ năng sống</a></li>
-                            <li><a class="dropdown-item" href="#">Sợ hãi và giải thoát</a></li>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <p class="mx-auto fs-2" style="font-family: 'Lobster Two'">Light house</p>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="blog.html">Trầm cảm</a></li>
+                                    <li><a class="dropdown-item" href="blog.html">Kỹ năng sống</a></li>
+                                    <li><a class="dropdown-item" href="blog.html">Sợ hãi và giải thoát</a></li>
 
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="quote.html">Ngẫm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="community.html">Cộng Đồng </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="resources.html">Suối Nguồn</a>
+                            </li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Quote</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Cộng Đồng </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Resources</a>
-                    </li>
-
-                </ul>
-
+                    </div>
+                </div>
             </div>
-            
-          
-        </div>
-        <button class="btn btn-outline-success d-flex justify-content-center btn-sm" type="submit">Đăng nhập</button>
-    </div>
-</nav>
-<script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function () { myToggle() };
+        </nav>
+        <script>
+            // Scroll down 
+            window.onscroll = function () { myToggle() };
 
-    function myToggle() {
-        if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-            document.getElementById("chgOnScr").className = "btn tr";
-            document.getElementById("navbar").className = "navbar bg-light sticky-top border-bottom";
-            document.getElementById("navbar").className.style = "box-shadow: 0px 2px 4px 8px #";
-            document.getElementById("logo").className = "logo align-self-center";
+            function myToggle() {
+                if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                    document.getElementById("chgOnScr").className = "btn tr";
+                    document.getElementById("navbar").className = "navbar bg-light fixed-top";
+                    document.getElementById("logo").className = "logo align-self-center";
 
-            document.getElementById("icon").className.style = "font-size: 2em;";
+                    document.getElementById("icon").className.style = "font-size: 2em;";
 
 
-        } else {
-            document.getElementById("chgOnScr").className = "navbar-toggler";
-            document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light sticky-top";
-            document.getElementById("brand").className = "navbar-brand";
-            document.getElementById("icon").className = "navbar-toggler-icon";
-            document.getElementById("icon").className.style = "font-size: 4em;";
+                } else {
+                    document.getElementById("chgOnScr").className = "navbar-toggler";
+                    document.getElementById("navbar").className = "navbar navbar-expand-lg bg-light";
+                    document.getElementById("brand").className = "navbar-brand";
+                    document.getElementById("icon").className = "navbar-toggler-icon";
+                    document.getElementById("icon").className.style = "font-size: 4em;";
 
-        }
-    }
-</script>
+                }
+            }
+        </script>
 
-<!--         <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
 
-    <!-- End header -->
-</header>
+        <!-- End header -->
+    </header>
   <!--Header-->
     <div class="container">
         <div class="p-4 p-md-5 mb-4">
