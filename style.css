@@ -21,11 +21,20 @@ body{
     border-radius: 30px;
     box-shadow: 1px 1px 5px 1px rgb(117, 116, 116);
 }
-.imageBannerBox{
 
+@media (max-width: 774px) {
+    .imageBanner {
+        width: 100%;
+        height: auto;
+        min-width: 200px;
+    }
+    .descrip {
+        font-size: smaller;
+    }
 }
+
 .qouteBanner{
-    font-size: 30px;
+    font-size: 1.7rem;
     background: -webkit-linear-gradient(#9f8486, #563302);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,8 +68,8 @@ hr{
 }
 .boxPicDes{
     position: relative;
-    width:350px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     margin: auto;
     
 }
@@ -74,11 +83,24 @@ hr{
     box-shadow: 2px 1px 1px 2px rgb(179, 179, 179);
 
 }
+
+@media (max-width: 774px) {
+    .boxy {
+        display: flex!important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .backgr {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
 .backgr{
     width: 250px;
     height: auto;
     padding: 30px;
-
+    transition: width 0.2s ease-out;
 }
 .buttonDesbox{
     margin-left: 70%;
@@ -86,13 +108,15 @@ hr{
 }
 
 .paraBox{
-    width:350px;
+    width:100%;
     padding: 10px;
+    font-size: 0.9rem;
 }
 .headDes{
     margin-left: 10px;
 }
 
+/* ====== COMMUNITY =========== */
 .sectionButton{
     width: 200px;
     height: auto;
@@ -100,16 +124,19 @@ hr{
 }
 .avatarLogo{
     width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin: auto;
+}
+.usernameDes {
+    padding-left: 0.7em;
 }
 .avatarDisplay{
     display: flex;
+    
+    align-items: center;
 }
-.usernameDes{
-    margin-top: 20px;
-    margin-left: 20px;
-}
+
 .col2{
     margin-right: 10px;
     background-color: #FFFCF4;
@@ -117,6 +144,8 @@ hr{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 15px;
     box-shadow: 1px 3px 1px 3px rgb(79, 77, 77);
+    transition: padding 0.2s ease-out;
+
 }
 .col2:hover{
     box-shadow:1px 1px 1px 1px  #563302;
@@ -124,17 +153,41 @@ hr{
     color: white;
     background-color: #946D06;
 }
+
 .row2{
     background-color: #946D06;
-    width: 1500px;
-    height: 600px;
+    width: 100vw;
+    height: 35rem;
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 2.5rem;
+    
+    display: flex;
+    flex-direction: column;
+
 }
+
+@media (max-width: 1200px) {
+    .row2 {
+        height: max-content;
+        padding-bottom: 3em;
+        min-width: 380px;
+    }
+    .commuRow {
+        flex-direction: column;
+        width:100%;
+    }
+    .col2 {
+        margin: 0;
+        padding-bottom: 0.6em;
+        margin-bottom: 0.3em;
+    }
+   
+
+}
+.colContentBox1
 .textCenter{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     background: -webkit-linear-gradient(#cbe0f5, #fefefe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -161,6 +214,18 @@ hr{
 .colContentBox2{
     margin-left: 50px;
     margin-top: 30px;
+}
+@media (max-width: 780px) {
+    .colContentBox1{
+        margin-right: 3em;
+    }
+    .colContentBox2{
+        margin-left: 2em;
+    }
+    .toTheTop {
+        display: inline-block;
+        min-width: 113px;
+    }
 }
 .formLDP{
     margin-top: 50px;
@@ -233,6 +298,7 @@ a{
     text-decoration: none;
     color: black;
     border-radius:15px;
+
 }
 .toTheTop2{
     margin-top: 30px;
@@ -262,6 +328,8 @@ a{
 }
 
 
+
+
 /* Minh's Code */
 .footer-container{
     width: 100%;
@@ -277,12 +345,12 @@ a{
 
 .bnt-backtotop{
     border: solid 1px black;
-    width: 210px;
+    width: 150px;
     height: 52px;
     border-radius: 30px;
     position: relative;
-    left: 46%;
-    top: 5%;
+    top: 150px;
+    left: 100px;
     background-color: #FFB900;
     text-align: center;
     cursor: pointer;
@@ -290,6 +358,10 @@ a{
 
 .bnt-backtotop h5{
     line-height: 45px;
+}
+
+.bnt-backtotop a {
+    color: black;
 }
 .col.mb-3{
     color: #FFFFFF;
