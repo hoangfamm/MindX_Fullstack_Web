@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./Bootstrap/bootstrap.js"></script>
-    <script src="./takedata.js" defer ></script>
+    <script src="./takedata.js" defer></script>
     <!-- Berdy's rel -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./community.css">
     <link rel="stylesheet" href="./style.css">
-    <script defer src="./community.js"></script>
+    <script src="./community.js"></script>
     <title>Cộng Đồng</title>
 </head>
 
@@ -122,57 +122,74 @@
         <!-- End header -->
     </header>
     <main>
-        <h2> Cộng Đồng</h2>
-        <a href="./post.html"><button type="button" class="btn btn-outline-primary buttonBox">Tạo Bài Đăng</button></a>
-        <div>
-            <img class="communityBanner"
-                src="https://y26uq11r8xr1zyp0d3inciqv-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/40-1-1024x597.jpg">
-        </div>
+        <div class="container">
+            <h2> Cộng Đồng</h2>
+            <a href="./post.html"><button type="button" class="btn btn-outline-primary buttonBox">Tạo Bài
+                    Đăng</button></a>
+            <div class="imageBanner2">
+                <img class="communityBanner"
+                    src="https://y26uq11r8xr1zyp0d3inciqv-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/40-1-1024x597.jpg">
+            </div>
 
-        <div class="postBox">
-            <!-- Post -->
-            <div class="usernameBox">
-                <!-- Username -->
-                <p><strong>Hoangfamm</strong></p>
-            </div>
-            <div class="questionBox">
-                <!-- Question -->
-                <p>Cách chữa trị trầm cảm ở tuổi 20
-                    <br>
-                    Hi mọi người, em cần tìm hiểu về các chứng rối loạn lo âu cụ thể ở Việt Nam?
-                </p>
-            </div>
-            <div class="cmtBox">
-                <!-- CMT -->
-                <div>
-                    <p><strong>maikhanhh</strong>
-                        Bạn có thể đến viên tâm lý ở LandMark-81</p>
+            <div class="postBox">
+                <!-- Post -->
+                <div class="usernameBox">
+                    <!-- Username -->
+                    <p><strong>Hoangfamm</strong></p>
+                </div>
+                <div class="questionBox">
+                    <!-- Question -->
+                    <p>Cách chữa trị trầm cảm ở tuổi 20
+                        <br>
+                        Hi mọi người, em cần tìm hiểu về các chứng rối loạn lo âu cụ thể ở Việt Nam?
+                    </p>
+                </div>
+                <div class="cmtBox">
+                    <!-- CMT -->
+                    <div>
+                        <p><strong>maikhanhh</strong>
+                            Bạn có thể đến viên tâm lý ở LandMark-81</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- post 2 -->
-        <div class="postBox">
-            <!-- Post -->
-            <div class="usernameBox">
-                <!-- Username -->
-                <p><strong>Viet Ha</strong></p>
-            </div>
-            <div class="questionBox">
-                <!-- Question -->
-                <p>Hi mọi người,
-                    <br>
-                    Em cần tìm hiểu về các di chứng kí ức, vốn dĩ có sự tác động đến rối loạn lưỡng cực?
-                </p>
-            </div>
-            <div class="cmtBox">
-                <!-- CMT -->
-                <div>
-                    <p><strong>Hà Nam</strong>
-                        Bạn có thể tham khảo link sau: hue212.com</p>
+            <!-- post 2 -->
+            <div class="postBox">
+                <!-- Post -->
+                <div class="usernameBox">
+                    <!-- Username -->
+                    <p><strong>Viet Ha</strong></p>
                 </div>
-                <div>
-                    <p><strong>Nhị Thuỷ</strong>
-                        Bạn đến chi nhánh ở Bệnh viện QUận 7 í, cũng có!</p>
+                <div class="questionBox">
+                    <!-- Question -->
+                    <p>Hi mọi người,
+                        <br>
+                        Em cần tìm hiểu về các di chứng kí ức, vốn dĩ có sự tác động đến rối loạn lưỡng cực?
+                    </p>
+                </div>
+                <div class="cmtBox">
+                    <!-- CMT -->
+                    <div>
+                        <p><strong>Hà Nam</strong>
+                            Bạn có thể tham khảo link sau: hue212.com</p>
+                    </div>
+                    <div>
+                        <p><strong>Nhị Thuỷ</strong>
+                            Bạn đến chi nhánh ở Bệnh viện QUận 7 í, cũng có!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Content 2 -->
+            <!-- post 2 -->
+            <div class="postBox">
+                <!-- Post -->
+                <div class="usernameBox">
+                    <!-- Username -->
+                    <p id="namePost"><strong></strong></p>
+                </div>
+                <div class="questionBox">
+                    <!-- Question -->
+                    <p id="contentPost">
+                    </p>
                 </div>
             </div>
         </div>
