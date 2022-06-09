@@ -1,3 +1,4 @@
+/* Berdy's Code */
 /* ================== HEADER ================= */
 /* nav btn */
 .nav-item:not(:first-child):hover {
@@ -22,7 +23,6 @@ a{
 }
 /* end blog btn */
 /* ================== END HEADER ================= */
-
 .col-md-6.px-0{
     width: 100%;
     height: 100%;
